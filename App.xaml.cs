@@ -14,6 +14,7 @@ public partial class App : Application
 		InitializeComponent();
 
 
+        //MainPage = new NavigationPage(serviceProvider.GetRequiredService<Views.Loggin.Loggin>());
         MainPage = new NavigationPage(serviceProvider.GetRequiredService<Views.Loggin.Loggin>());
     }
 }

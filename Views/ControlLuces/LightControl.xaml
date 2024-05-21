@@ -13,8 +13,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button x:Name="btnEncender1" Text="Encender" Clicked="btnEncender1_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,0"/>
-            <Button x:Name="btnApagar1" Text="Apagar" Clicked="btnApagar1_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,0"/>
+            <Button x:Name="btnEncender1" Text="Encender" Clicked="btnEncender1_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,10" BackgroundColor="DarkGrey" CornerRadius="20"/>
+            <Button x:Name="btnApagar1" Text="Apagar" Clicked="btnApagar1_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,10" BackgroundColor="DarkGrey" CornerRadius="20"/>
         </Grid>
 
         <Label Text="Luces 2" HorizontalOptions="Center" FontSize="Title" Margin="0,0,0,10"/>
@@ -23,8 +23,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button x:Name="btnEncender2" Text="Encender" Clicked="btnEncender2_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,0"/>
-            <Button x:Name="btnApagar2" Text="Apagar" Clicked="btnApagar2_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,0"/>
+            <Button x:Name="btnEncender2" Text="Encender" Clicked="btnEncender2_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightGray" CornerRadius="20"/>
+            <Button x:Name="btnApagar2" Text="Apagar" Clicked="btnApagar2_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightGray" CornerRadius="20"/>
         </Grid>
 
         <Label Text="Luces 3" HorizontalOptions="Center" FontSize="Title" Margin="0,0,0,10"/>
@@ -33,8 +33,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button x:Name="btnEncender3" Text="Encender" Clicked="btnEncender3_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,0"/>
-            <Button x:Name="btnApagar3" Text="Apagar" Clicked="btnApagar3_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,0"/>
+            <Button x:Name="btnEncender3" Text="Encender" Clicked="btnEncender3_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightGray" CornerRadius="20"/>
+            <Button x:Name="btnApagar3" Text="Apagar" Clicked="btnApagar3_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightGray" CornerRadius="20"/>
         </Grid>
 
         <Label Text="Luces 4" HorizontalOptions="Center" FontSize="Title" Margin="0,0,0,10"/>
@@ -43,8 +43,8 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button x:Name="btnEncender4" Text="Encender" Clicked="btnEncender4_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,0"/>
-            <Button x:Name="btnApagar4" Text="Apagar" Clicked="btnApagar4_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,0"/>
+            <Button x:Name="btnEncender4" Text="Encender" Clicked="btnEncender4_Clicked" Grid.Column="0" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightBlue" CornerRadius="20"/>
+            <Button x:Name="btnApagar4" Text="Apagar" Clicked="btnApagar4_Clicked" Grid.Column="1" FontSize="15" Margin="0,10,0,10" BackgroundColor="LightBlue" CornerRadius="20"/>
         </Grid>
 
     </StackLayout>

@@ -50,6 +50,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="FirebaseAuthentication.net" Version="4.1.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Shiny.BluetoothLE" Version="3.2.1" />
 	</ItemGroup>
@@ -61,6 +62,13 @@
 	  <MauiXaml Update="Views\Loggin\Loggin.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Loggin\Register.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Views\Persona\" />
 	</ItemGroup>
 
 </Project>
